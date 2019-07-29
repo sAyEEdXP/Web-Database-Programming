@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.asm,c asdsa {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.bluesdm,vdvdavdas {
+    color: blue;
+}
+</style>
+<script src="jszcss/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+						   
+	$("#animatediv").animate({left: '250px',delay: '250px'});
+
+    $("#hide").click(function(){
+        $("#hideex").hide();
+    });
+	
+	
+    $("#show").click(function(){
+        $("p").show();
+    });
+	
+	
+	$("#fadebutton").click(function(){
+        $("#div1").fadeToggle();
+        $("#div2").fadeToggle("slow");
+        $("#div3").fadeToggle(10000);
+    });
+	
+	$("#animate").click(function(){
+    });
+	
+	 $("#cssexp").click(function(){
+        $("#div123").addClass("important blue");
+    });
+});
+</script>
+</head>
+<body>
+
+<p id="hideex">If you click on the "Hide" button, I will disappear.</p>
+
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+
+
+<p>Demonstrate fadeToggle() with different speed parameters.</p>
+
+<button id="fadebutton">Click to fade in/out boxes</button><br><br>
+
+<div id="#animatediv" style="width:80px;height:80px;background-color:red;"></div>
+<br>
+<div id="div2" style="width:80px;height:80px;background-color:green;"></div>
+<br>
+<div id="div3" style="width:80px;height:80px;background-color:blue;"></div>
+
+
+<button id="animate" >Start Animation</button>
+
+<p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+<div id="animatediv" style=" position:relative;width:80px;height:80px;background-color:red;"></div>
+
+
+
+
+
+
+<button id="cssexp">Add classes to first div element</button><br>
+<br>
+<br>
+
+
+<div id="div123" class="vdfds" >This is some text.</div>
+<div id="div2">This is some text.</div>
+<br>
+
+
+
+</body>
+</html>
+
