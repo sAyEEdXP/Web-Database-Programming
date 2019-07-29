@@ -1,0 +1,179 @@
+.header{
+            
+}
+.header-logo{
+    height: 150px;
+    width: 20%;
+    background: #666;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    border: #009 solid 2px;
+
+}
+.header-banner{
+    height: 150px;
+    width: 80%;
+    background: green;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    border: #933 solid 2px;
+}
+.content-section{
+    height: 550px;
+    width: 60%;
+    background: #666;
+    top: 200px;
+    left: 20%;
+    right: 20%;
+    position: absolute;
+    text-align: center;
+}
+.left-sidebar{
+    height: 550px;
+    width: 20%;
+    background: #956;
+    top: 200px;
+    left: 0px;
+    position: absolute;
+    border: #009 solid 1px;
+}
+.navigation{
+    height: 50px;
+    width: 100%;
+    background: orange;
+    top: 150px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    position: absolute;
+    border: #933 solid 2px;
+}
+.regForm{
+    margin-left: 20px;
+}
+
+ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    zoom:1;
+    list-style: none;
+}
+ul li {
+    float: left;
+    padding: 7px 5px;
+    margin-top: 8px;
+/*    border: 1px solid black;*/
+    background: #aaa;
+}
+ul li:hover{
+    background: orange;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 3px;
+}
+.contentlt{
+    height: 275px;
+    width: 50%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    background: #333;
+}
+.contentrt{
+    height: 275px;
+    width: 50%;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    background: #353;
+}
+.contentrb{
+    height: 275px;
+    width: 50%;
+    top: 50%;
+    right: 0px;
+    border: 1px solid #fff;
+    position: absolute;
+    background: #363;
+}
+.contentlb{
+    height: 275px;
+    width: 50%;
+    top: 50%;
+    left: 0px;
+    border: 1px solid #fff;
+    position: absolute;
+    background: #353;
+}
+.right-sidebar{
+    height: 550px;
+    width: 20%;
+    background: #956;
+    top: 200px;
+    right: 0px;
+    position: absolute;
+    border: #059 solid 1px;
+}
+
+.footer{
+    height: 50px;
+    width: 100%;
+    background: #343;
+    top: 750px;
+    left: 0px;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+}
+.footer-left{
+    height: 50px;
+    width: 70%;
+    background: #323;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+.footer-right{
+    height: 50px;
+    width: 30%;
+    background: #313;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+}
+.fb img{
+    height: 80%;
+    width: 30%;
+    margin: 5px;
+    top: 2px;
+    left: 0px;
+    border-radius: 40%;
+    position: absolute;
+}
+.google img{
+    height: 80%;
+    width: 30%;
+    margin: 5px;
+    top: 2px;
+    left: 32%;
+    border-radius: 40%;
+    position: absolute;
+}
+
+.twiter img{
+    height: 80%;
+    width: 30%;
+    margin: 5px;
+    top: 2px;
+    left: 64%;
+    border-radius: 40%;
+    position: absolute;
+}
+.icon{
+
+}
